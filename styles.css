@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: system-ui, "Roboto";
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header2 {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 100px;
+}
+
+.header3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding: 100px 540px 50px 540px;
+}
+
+.header5 {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+.header3 img {
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+    border-radius: 5px;
+}
+
+.header2 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 350px;
+    margin-left: 15px;
+}
+
+.subtext1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+button, .button2 {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid #3882f6;
+    height: 30px;
+}
+
+.twia {
+   font-size: 48px;
+   font-weight: bold;
+}
+
+.bimages1, .bimages2, .bimages3, .bimages4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    width: 180px;
+    color: #E5E7EB;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sri {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.header4text {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.header4text2 {
+    display: flex;
+    font-weight: bold;
+    justify-content: end;
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    padding: 20px 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+.button2 {
+    border: white solid 2px;
+}
